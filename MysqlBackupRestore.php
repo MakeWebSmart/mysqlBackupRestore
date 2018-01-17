@@ -13,8 +13,8 @@
 
 $host = "localhost";
 $file = __DIR__ . '/backup/my_dump_data.sql';
-$user = "root";
-$pass = '';
+$user = "user";
+$pass = 'password'; /// empty password will cause issue.
 $db = "my_dump_data";
 
 /*
